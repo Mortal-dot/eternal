@@ -800,3 +800,17 @@ footer {
 .img-grayscale {
   margin: 20px; /* Ajusta el valor para el espacio entre las imágenes */
 }
+
+
+/* Estilos para la imagen */
+.imagen {
+  width: 100%;
+  max-width: 300px;
+  filter: grayscale(100%); /* La imagen comienza en escala de grises */
+  transition: filter 1s ease; /* Transición suave para la propiedad filter */
+}
+
+/* Cuando se toca o se hace clic en la imagen */
+.imagen:active {
+  filter: grayscale(0%); /* Vuelve a mostrar los colores al tocar */
+}
