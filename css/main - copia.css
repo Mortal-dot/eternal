@@ -809,36 +809,36 @@ footer {
 @media screen and (max-width: 426px) {
   /* Asegura que las imágenes estén alineadas en una sola fila */
   .contentBox .content-image-grid {
-    display: grid;                /* Utiliza grid para organizar las imágenes */
+    display: grid;                  /* Utiliza grid para organizar las imágenes */
     grid-template-columns: repeat(3, 1fr);  /* Crea tres columnas de igual tamaño */
-    gap: 10px;                    /* Agrega espacio entre las columnas */
-    padding: 10px;                /* Agrega un poco de padding al contenedor */
+    gap: 10px;                      /* Agrega espacio entre las columnas */
+    padding: 10px;                  /* Agrega un poco de padding al contenedor */
   }
 
   /* Estilo para las imágenes dentro de la cuadrícula */
   .contentBox .content-image-grid img {
-    width: 100%;                  /* Hace que las imágenes ocupen el 100% del tamaño de la celda */
-    height: auto;                 /* Mantiene la relación de aspecto de la imagen */
-    object-fit: cover;            /* Asegura que las imágenes se mantengan centradas y cubran el espacio */
-    border-radius: 10px;          /* Bordes redondeados como en Instagram */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Efecto de sombra 3D más suave */
+    width: 100%;                    /* Hace que las imágenes ocupen el 100% del tamaño de la celda */
+    height: 200px;                  /* Establece una altura fija para las imágenes */
+    object-fit: cover;              /* Asegura que las imágenes se mantengan centradas y cubran el espacio */
+    border-radius: 10px;            /* Bordes redondeados como en Instagram */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);  /* Sombra 3D más suave */
   }
 
   /* Ajustes adicionales para la sección de presentación */
   .presentacion-section {
-    margin: 0px 10px;            /* Reduce los márgenes laterales */
+    margin: 0px 10px;               /* Reduce los márgenes laterales */
   }
 
   /* Para los títulos h3 */
   h3, .h3 {
-    font-size: calc(1.2rem + 1vw); /* Ajuste de tamaño de fuente para pantallas más pequeñas */
+    font-size: calc(1.2rem + 1vw);    /* Ajuste de tamaño de fuente para pantallas más pequeñas */
   }
 
   /* Sección principal */
   .principal-section .image-principal {
-    width: 100%;                  /* Ajusta el tamaño de la imagen al 100% del contenedor */
-    height: auto;                 /* Mantiene la relación de aspecto de la imagen */
-    left: 0;                      /* Alinea la imagen al borde izquierdo */
+    width: 100%;                     /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    height: auto;                    /* Mantiene la relación de aspecto de la imagen */
+    left: 0;                         /* Alinea la imagen al borde izquierdo */
   }
 
   /* Asegura que los formularios tengan buen diseño */
