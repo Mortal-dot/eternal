@@ -818,10 +818,10 @@ footer {
   /* Estilo para las imágenes dentro de la cuadrícula */
   .contentBox .content-image-grid img {
     width: 100%;                  /* Hace que las imágenes ocupen el 100% del tamaño de la celda */
-    height: 100%;                 /* Las imágenes llenan el contenedor de forma proporcional */
+    height: auto;                 /* Mantiene la relación de aspecto de la imagen */
     object-fit: cover;            /* Asegura que las imágenes se mantengan centradas y cubran el espacio */
     border-radius: 10px;          /* Bordes redondeados como en Instagram */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Efecto de sombra 3D con brillo negro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Efecto de sombra 3D más suave */
   }
 
   /* Ajustes adicionales para la sección de presentación */
@@ -849,8 +849,6 @@ footer {
     justify-items: stretch;
   }
 }
-
-
 
 
 
