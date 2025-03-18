@@ -817,8 +817,8 @@ footer {
 
   /* Estilo para las imágenes dentro de la cuadrícula */
   .contentBox .content-image-grid img {
-    width: 100%;                    /* Hace que las imágenes ocupen el 100% del tamaño de la celda */
-    height: 200px;                  /* Establece una altura fija para las imágenes */
+    width: 200%;                    /* Hace que las imágenes ocupen el 100% del tamaño de la celda */
+    height: 500px;                  /* Establece una altura fija para las imágenes */
     object-fit: cover;              /* Asegura que las imágenes se mantengan centradas y cubran el espacio */
     border-radius: 10px;            /* Bordes redondeados como en Instagram */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);  /* Sombra 3D más suave */
